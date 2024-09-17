@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+  <!-----Nav menu-->
+  <div class="container">
+    <nav id="header">
+      <div class="nav-logo">
+        <p class="nav-name">logo</p>
+      </div>
+      <div class="nav-menu" id="mynavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="#home" class="nav-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#about" class="nav-link active-link">About</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#project" class="nav-link">Project</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#contact" class="nav-link">Contact</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <!-----Dark mode---->
+      <div class="mode">
+        <div class="moon-sun" id="toggle-switch">
+          <i class="fa fa-moon" id="moon"></i>
+          <i class="fa fa-sun" id="sun"></i>
+          
+        </div>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+     <!---main--->
+
+     <main class="wrapper">
+       <section class="featured-box" id="home">
+         <div class="featured-text">
+          <div clas="hello">
+            <p>Hello I,m</p>
+          </div>
+          <div class="featured-name">
+            <span class="typedText"></span>
+          </div>
+          <div class="text-info">
+            <p> P.SAI CHARAN I.m a Web developer Intern in Next24Tech Technology & services</p>
+          </div>
+          <div class="text-btn">
+            <a href="mailto:saicharanpalla213@gmail.com">
+            <button class="btn hire-btn">Hire Me</button></a>
+            <a href="https://drive.google.com/file/d/1NXk72sC5IhmcQFCLRpUjY9eKBcWpWWhV/view?usp=drive_link">
+            <button class="btn">Download CV<i class="uil uil-file"></i></button>
+              </a>
+          </div>
+          <div class="social_icons">
+            <div class="icon_circle">
+              <a href="https://WWW.instagram.com/charan__cherry6281">
+              <div class="icon"><i class="uil uil-instagram"></i></div></a>
+              <a href="https://www.linkedin.com/in/sai-charan-palla-822987285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+              <a href="https://github.com/PALLASAICHARAN">
+              <div class="icon"><i class="uil uil-github-alt"></i></div></a>
+            </div>
+          </div>
+         </div>
+         <div class="featured-image">
+          <div class="image">
+            <img src="user.png" alt="">
+          </div>
+         </div>
+       </section>
+       <!------about box------>
+       <section class="section" id="about">
+        <div class="top-header">
+          <h1>About me</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="about-info">
+              <figure class="about-me">
+                <figcaption>
+                   <img src="background.png" alt="" class="profile">
+                   <h2>Bechelor of Engineering</h2>
+                   <p>Pursuing 4th Year in Saveetha School of Engineering</p>
+              </figure>
+              <button class="about-me-btn">Hire Me</button>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-box">
+              <span class="title">HTML+CSS</span>
+              <div class="skill-bar" html></div>
+              <span class="skill-per" >
+                <span class="tooltip">80%</span>
+              </span>
+              </div>
+           <div class="skill-box">
+             <span class="title">Java</span>
+             <div class="skill-bar "java></div>
+             <span class="skill-per">
+                <span class="tooltip">60%</span>
+                </span>
+                </div>
+                <div class="skill-box">
+                <span class="title">Python</span>
+             <div class="skill-bar "python></div>
+             <span class="skill-per">
+                <span class="tooltip">40%</span>
+              </div>
+            </span>
+            <div class="skill-box">
+              <span class="title">C</span>
+           <div class="skill-bar "c></div>
+           <span class="skill-per">
+              <span class="tooltip">40%</span>
+            </div>
+          </span>
+          </div>
+       </section>
+       <!------project box----->
+       <section class="section"  id="project">
+        <div class="top-header">
+          <h1>Project</h1>
+        </div>
+        <div class="project-container">
+          <div class="project-box">
+            <i class="uil uil-briefcase-alt"></i>
+            <h3>CERTIFIED ON</h3>
+            <label>7+ Online course & webnairs</label>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <i class="uil uil-user"></i>
+              <h3>Resarch Done</h3>
+              <label>About EMG SIGNAL IDENTIFACATION fOR HAND MOVEMENT</label>
+            </div>
+            <div class="project-container">
+              <div class="project-box">
+                <i class="uil uil-award-alt"></i>
+                <h3>Product Developed</h3>
+                <label>IOT BASE SMART IRRIGATION SYSTEM</label>
+              </div>
+        </div>
+       </section>
+       <!-----contact----->
+       <section class="section" id="contact">
+        <div class="top-header">
+          <h2>Let's work Together</h2>
+          <span>Do yo have a project in your mind, contact me here</span>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+              <p> <i class="uil uil-envelope">Gmail:saicharanpalla213@gmail.com</i></p>
+              <p> <i class="uil uil-phone">phone:+91-6281631368</i></p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-control">
+              <div class="form-input">
+                <input type="text" class="input-field" placeholder="your Name">
+                <input type="text" class="input-field" placeholder="your Email">
+              </div>
+              <div class="text-area">
+                <input type="text" class="input-subject" placeholder="subject">
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <div class="form-button">
+                <button class="btn">Send<i class="uil uil-message"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+     </main>
+     <!----Footer------>
+     <footer>
+      <div class="middle-footer">
+        <ul class="footer-menu">
+          <li class="footer_menu_list">
+            <a href="#home">Home</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#about">About</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#project">Project</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-social-icons">
+        <div class="icon"><i class="uil uil-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-linkedin-in icon"></i></div>
+        <div class="icon"><i class="uil uil-behance-alt"></i></div>
+        <div class="icon"><i class="uil uil-github-alt"></i></div>
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">CodeCreators</a> - All rights reserved 2024</p>
+      </div>
+     </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
